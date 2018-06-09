@@ -350,10 +350,10 @@ p {
     display: flex;
 }
 .footer-box .left .earth{
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
-    background: #000 url(language.png);
+    background: url(language.png) no-repeat;
 }
 
 .footer-box .left a {
@@ -363,7 +363,7 @@ p {
     margin-left: 18px;
     text-decoration: none;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 18px;
     color: #000;
 }
 
@@ -380,6 +380,6 @@ p {
     color: black;
     text-decoration: none;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 18px;
     margin-left: 9px;
 }
