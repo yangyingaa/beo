@@ -255,7 +255,7 @@ p {
     font-size: 13px;
     font-weight: 300;
     line-height: 21px;
-    color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .info-box {
@@ -347,15 +347,23 @@ p {
     padding: 0 14px;
     float: left;
     margin: 31px 0;
+    display: flex;
+}
+.footer-box .left .earth{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #000 url(language.png);
 }
 
 .footer-box .left a {
     display: block;
     text-align: left;
     letter-spacing: 2px;
-    margin-left: 40px;
+    margin-left: 18px;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 400;
+    line-height: 16px;
     color: #000;
 }
 
@@ -371,7 +379,7 @@ p {
     float: right;
     color: black;
     text-decoration: none;
-    line-height: 15px;
-    text-decoration: none;
+    font-weight: 400;
+    line-height: 16px;
     margin-left: 9px;
 }
